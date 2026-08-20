@@ -1,0 +1,28 @@
+# ===== Obsidian 专属 =====
+
+# 界面状态：记录「当前打开了哪些面板 / 文件」，每台设备都不同，
+# 同步它没有意义，反而是 Git 冲突的头号来源。
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# 缓存目录，可随时重建，无需纳入版本控制
+.obsidian/cache/
+
+# Obsidian 回收站（设置里开启「移动到 Obsidian 回收站」后才会出现）
+.trash/
+
+# ===== 操作系统生成的垃圾文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+
+# ===== 可选（默认注释掉，按需取消）=====
+# 若希望每台设备用完全独立的设置（不同步插件/主题/快捷键），取消下行注释：
+# .obsidian/
+
+# 若附件（图片/PDF）体积大、想改用网盘单独同步，把它们放进 attachments/ 后取消注释：
+# attachments/
